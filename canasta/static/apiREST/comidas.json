@@ -1,0 +1,113 @@
+{
+    "ceviches":[
+        {
+            "id": "0",
+            "imagen": "https://live.staticflickr.com/65535/53717722449_8c0e1ca40d_q_d.jpg",
+            "name" : "Ceviche de Mariscos",
+            "ingredientes" : "Limon, Mariscos, Cebolla morada, ciboulette",
+            "descripcion" : "El ceviche de mariscos es el clasico que nunca falla cuando de curar la caña se trata, aunque tambien puede ser un muy buen gusto."
+        },
+        {
+            "id": "1",
+            "imagen": "https://live.staticflickr.com/65535/53717386221_7b8297e589_q_d.jpg",
+            "name": "Ceviche de Mariscos con Piure",
+            "ingredientes" : "Limon, Cebolla Morada, Cilantro, Mariscos, piure",
+            "descripcion" : "Nuestro clasico de siempre pero esta vez con un toque de fuerza en sabor la cual solo el piure puede lograr, esto debido a que absorben por bastante tiempo el jugo de limon lo que da un sabor extraordinario."
+        },
+        {
+            "id": "2",
+            "imagen": "https://live.staticflickr.com/65535/53717816070_c3abe43972_q_d.jpg",
+            "name": "Ceviche de Salmon",
+            "ingredientes" : "Limon, Salmon, Cebolla morada, ciboulette",
+            "descripcion" : "De los mas ricos no solo por su costo si no tambien por su sabor este ceviche que tiene un altisima cantidad de juego de limon y una cantidad de salmon a envidiar de algunas otras"
+        },
+        {
+            "id": "3",
+            "imagen": "https://live.staticflickr.com/65535/53717594788_9afca70f6c_q_d.jpg",
+            "name": "Ceviche de Salmon con Camarones",
+            "ingredientes" : "Limon, Salmon, Cebolla morada, ciboulette con camarones",
+            "descripcion" : "De los mas ricos no solo por su costo si no tambien por su sabor este ceviche que tiene un altisima cantidad de juego de limon y una cantidad de salmon a envidiar de algunas otras pero ahora con camarones-"
+        },
+        {
+            "id": "4",
+            "imagen": "https://live.staticflickr.com/65535/53717722399_76855ba0b5_q_d.jpg",
+            "name": "Ceviche de Reineta",
+            "ingredientes" : "Limon, Cebolla Morada, Cilantro, Reineta",
+            "descripcion" : "Este es el ceviche para esas personas que no les gusta tanto el sabor a mar, aquellas personas que tienen un paladar un poco menos experimentado en cuanto a gusto se refiere, nosotros pensamos en ustedes y traimos este ceviche para que no te pierdas el estilo de la negra."
+        },
+        {
+            "id": "5",
+            "imagen": "https://live.staticflickr.com/65535/53717594833_95d3047e43_q_d.jpg",
+            "name": "Ceviche de Reineta con Camarones",
+            "ingredientes" : "Limon, Cebolla Morada, Cilantro, Reineta con camarones",
+            "descripcion" : "Este es el ceviche para esas personas que no les gusta tanto el sabor a mar, aquellas personas que tienen un paladar un poco menos experimentado en cuanto a gusto se refiere, nosotros pensamos en ustedes y traimos este ceviche para que no te pierdas el estilo de la negra, ahora con camarones."
+        }
+    ],
+    "platos" : [
+        {
+            "id": "6",
+            "imagen": "https://live.staticflickr.com/65535/53717385796_16e242f70c_q_d.jpg",
+            "name": "Trio Marino",
+            "ingredientes" : "Reineta, Camarones, Champiñones, Ciboullete",
+            "descripcion" : "Lo unico que puedo decir de estre trio de componentes seria que es inesperado por que uno no se imagina ni de broma el sabor que este puede tener, puede ser la maxima complementacion de sabores."
+        },
+        {
+            "id": "7",
+            "imagen": "https://live.staticflickr.com/65535/53717722234_fd402fa520_q_d.jpg",
+            "name": "Ostiones a la Parmesana",
+            "ingredientes" : "10 Ostiones, Mantequilla, Cebolla Picada, Crema, Vino blanco",
+            "descripcion" : "No digo que Ostras pero que digo Ostras a la parmesana, estas lejos de las mejores que se encuentran actualmente en la oferta  cevichera de padre hurtado y ciudad satelite, ¿Te lo vas a perder?"
+        },
+        {
+            "id": "8",
+            "imagen": "https://live.staticflickr.com/65535/53717722219_e0b027a407_q_d.jpg",
+            "name": "Salmon con papas a la negra",
+            "ingredientes" : "1 filete de salmon, una porcion de papas a la negra, salsa de camaron",
+            "descripcion" : "El salmon esta bien, la salsa da un excelente acompañamiento, pero las papas a la negra, esas si que dejan fuera a los mejores locales de comida rapida, yo digo que deberias ordenarte un salmon para ti, dime cada cuanto te das un gusto."
+        },
+        {
+            "id": "9",
+            "imagen": "https://live.staticflickr.com/65535/53717722209_befb51cc10_q_d.jpg",
+            "name": "Paste de Jaiva",
+            "ingredientes" : "Pastelera de choclo, pino de jaiva.",
+            "descripcion" : "Tengo poca información acerca de este ancestral, pero delicioso platillo, pero por lo descubierto que todas las personas que lo han probado lo recomiendan debido a su contundencia y capacidad para satisfacer el hambre sin perder de vista la calidad del sabor."
+        },
+        {
+            "id": "10",
+            "imagen": "https://live.staticflickr.com/65535/53716475632_f33a5f3aa8_q_d.jpg",
+            "name": "Paila Marina",
+            "ingredientes" : "Mariscos, camarones, papas y pulpito.",
+            "descripcion" : "Un clásico del puerto, independiente el lugar o el momento, cuando me tomo este mariscal, no solo siento que gano la fuerza de Hércules, sino que también puedo disfrutar de una receta totalmente refinada al punto que roza con la perfección."
+        },
+        {
+            "id": "11",
+            "imagen": "https://live.staticflickr.com/65535/53717594773_a3b2f25afb_q_d.jpg",
+            "name": "Colacion",
+            "ingredientes" : "1 filete de pescado con arroz y ensalada",
+            "descripcion" : "Fálicamente, este es el más pedido a nivel país cuando se va a la costa. Consta de 1 filete de pescado, acompañado con una buena cantidad de arroz, acompañado de su fiel compañero del alma, el tomate como ensalada."
+        }
+    ],
+    "sandwiches" : [
+        {
+            "id": "12",
+            "imagen": "https://live.staticflickr.com/65535/53716475457_afa358b881_q_d.jpg",
+            "name": "Terucazo Doble",
+            "ingredientes" : "2 presas de pescado, cebolla morada, tomate, ciboullete",
+            "descripcion" : "¿Tienes hambre?, tenias por que te acabas de topar con un sandwich que literal tiene dos fieltes de pescado en su interior acompañado con cebolla tomate y ciboulette, y si esa conbinacion no te basta, todavia puedes ordenar otro 😉"
+        },
+        {
+            "id": "13",
+            "imagen": "https://live.staticflickr.com/65535/53717594413_0a90f990e1_q_d.jpg",
+            "name": "Terucazo Simple",
+            "ingredientes" : "1 presas de pescado, cebolla morada, tomate, ciboullete",
+            "descripcion" : "¿Veamos si es que la astilla es igual al palo? crees que tu hijo puede aceptar el desafio de comerce un terucazo simple, no deja de ser una pieza de pescado dentro de un sandwich acompañado de cebolla morada, tomate y ciboulette."
+        },
+        {
+            "id": "13",
+            "imagen": "https://live.staticflickr.com/65535/53717386111_e5b70491af_q_d.jpg",
+            "name": "Empanadas de mariscos",
+            "ingredientes" : "Pino de Mariscos",
+            "descripcion" : "El pino de mariscos consiste en cebolla mariscos y aceitunas creando asi otra perfeccion gastronomica."
+        }
+    ]
+}

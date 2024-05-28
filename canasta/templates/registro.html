@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Registro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/fontsgoogle.css">
+    <link rel="stylesheet" href="css/estilomenu.css">
+    <link rel="stylesheet" href="css/estiloregistro.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="img/Logo.webp">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body onload="blanqueadoRegistro()">
+    <div class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand lora deoro">
+                <img src="img/Logo.webp" width="75px" height="75px" class="rounded-4" alt="LogoCevicheria">
+                Cevicheria La Negra
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav sora">
+                    <li class="nav-item">
+                        <a class="nav-link deoro" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle deoro" hrefq="#" role="button" data-toggle="dropdown">Cuenta</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item deoro sora" href="login.html">Log in</a></li>
+                            <li><a class="dropdown-item deoro sora" href="registro.html">Register</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle deoro" hrefq="#" role="button" data-toggle="dropdown">Menu</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item deoro sora" href="menu.html">Todo</a></li>
+                            <li><a class="dropdown-item deoro sora" href="platos.html">Platos</a></li>
+                            <li><a class="dropdown-item deoro sora" href="ceviches.html">Ceviches</a></li>
+                            <li><a class="dropdown-item deoro sora" href="sandwiches.html">Sadwiches</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle deoro" hrefq="#" role="button" data-toggle="dropdown">La Cevicheria La Negra</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item deoro sora" href="nosotros.html">Nosotros</a></li>
+                        </ul>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<br><br>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5 col-xll-5"></div>
+        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xll-2">
+            <div class="text-center">
+                <h1 class="border-bottom border-warning deoro lora rounded-3">Registro</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center">
+        <p class="deoro sora">Todas las casillas maracadas con un asterisco (*) son de caracter obligatorio</p>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xll-4">
+            <h2 class="deoro lora border-bottom border-warning rounded-3 text-center">Informacion de la cuenta</h2>
+        </div>
+    </div>
+    <form class="form shadow rounded-3" method="post">
+        <div class="container border border-warning rounded-3">
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4col-xll-4">
+                    <div class="form-group">
+                        <label class="deoro lora form-label sizingthefontlabel mt-2" for="newUserName">*Nombre Usuario:</label>
+                        <input type="text" name="newUserName" class="form-control mb-2" id="" required placeholder="Ingrese Aqui:">
+                    </div>
+                    <div class="form-group">
+                        <label class="deoro lora form-label sizingthefontlabel " for="newUserEmail">*Correo:</label>
+                        <input type="email" name="newUserEmail" class="form-control mb-3" id="" required placeholder="Ingrese su correo electronico:">
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xll-4">
+                    <div class="form-group">
+                        <label class="deoro lora form-label sizingthefontlabel mt-2" for="newUserPswd">*Contraseña:</label>
+                        <input type="password" name="newUserPswd" class="form-control mb-2" id="" required placeholder="Ingrese su contraseña:">
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xll-4 text-center">
+                    <div class="form-group">
+                        <label class="deoro lora form-label sizingthefontlabel mt-2" for="newUserEmail">*Repetir Contraseña:</label>
+                        <input type="password" name="newUserEmail" class="form-control mb-3" id="" required placeholder="Ingrese su contraseña otra vez:">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="col-lg-3">
+            <h2 class="lora deoro text-center border-bottom border-warning rounded-3">Datos de Envio:</h2>
+        </div>
+        <div class="container border border-warning rounded-3 shadow-lg">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xll-6">
+                    <div class="form-group">
+                        <label class="deoro lora form-label sizingthefontlabel mt-2" for="newUserName">*Primer Nombre:</label>
+                        <input type="text" name="newUserName" class="form-control mb-2" id="" required placeholder="Aqui su primer nombre:">
+                    </div>
+                    <div class="form-group">
+                        <label class="deoro lora form-label sizingthefontlabel mt-2" for="newUserName">*Segundo Nombre:</label>
+                        <input type="text" name="newUserName" class="form-control mb-2" id="" required placeholder="Aqui su segundo nombre:">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xll-6">
+                    <div class="form-group">
+                        <label class="deoro lora form-label sizingthefontlabel mt-2" for="newUserName">*Codigo Postal:</label>
+                        <input type="number" name="newUserName" class="form-control mb-2" id="" required placeholder="Ingrese aqui su codigo postal:">
+                    </div>
+                    <div class="form-group">
+                        <label class="deoro lora form-label sizingthefontlabel mt-2" for="newUserName">*Dirección:</label>
+                        <input type="text" name="newUserName" class="form-control mb-2" id="" required placeholder="Ingrese aqui su direccion:">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <input class="btn btn-secondary m-3" type="submit">
+        </div>
+    </form>
+</div>
+<br><br>
+<div class="container-fluid text-end">
+    <div class="deoro" style="font-size: 30px;" id="reloj">
+
+    </div>
+</div>
+<script src="js/dadordeora.js"></script>
+<script src="js/validaciones.js"></script>
+</body>
+<footer class="container-fluid">
+    <div class="row text-center">
+        <div class="col-sm-12 m-2">
+            <a href="https://www.instagram.com/cevicherialanegra08/"><img src="img/InstaLogo.webp" style="width: 60px;" alt=""></a>
+            <a href=""><img src="img/icono_wsp.jpg" style="width: 55px;" alt=""></a>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <h1 class="text-center"><a class="deorofooter lora" href="index.html" style="text-decoration: none; ">La Cevicheria La Negra ©</a></h1>
+    </div>
+    <br>
+    <div class="row text-center">
+        <ul class="sora deorofooter">
+            <li><a href="index.html" class="nondecorationslinks">Inicio</a></li>
+            <li><a href="login.html" class="nondecorationslinks">Log in</a></li>
+            <li><a href="registro.html" class="nondecorationslinks">Register</a></li>
+            <li><a href="menu.html" class="nondecorationslinks">Menu</a></li>
+            <li><a href="platos.html" class="nondecorationslinks">Platos</a></li>
+            <li><a href="ceviches.html" class="nondecorationslinks">Ceviches</a></li>
+            <li><a href="sandwiches.html" class="nondecorationslinks">Sandwiches</a></li>
+
+        </ul>
+    </div>
+    <br>
+</footer>
+</html>

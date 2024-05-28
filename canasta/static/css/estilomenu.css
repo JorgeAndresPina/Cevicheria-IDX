@@ -1,0 +1,38 @@
+body{
+    background-color: #262626;
+}
+.deoro{
+    color: #ffe066;
+}
+.deorofooter{
+    color: #e6b800;
+}
+footer{
+    background-color: #404040;
+}
+.nondecorationslinksdeoro{
+    color: #e6b800;
+    text-decoration: none;
+}
+.nondecorationslinks{
+    color: #e6b800;
+    text-decoration: none;
+}
+p{
+    font-size: 20px;
+}
+.colorOpcionesCeviches{
+    background-color: #404040;
+    border-color: #e6b800;
+    color: #ffe066;
+}
+.shadow{
+    color: white;
+}
+
+#whatsfooter{
+    width: 55px;
+}
+#instafooter{
+    width: 60px;
+}

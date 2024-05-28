@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {%load static%}
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet " type="text/css" href="{% static 'css/bootstrap.min.css'%}">
+    <title>Cevicheria La Negra</title>
+    <link rel="preconnect" type="text/css" href="{% static 'https://fonts.googleapis.com'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/fontsgoogle.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/estiloindex.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/estilomenu.css'%}">
+    <link rel="icon" type="image/x-icon" href="{% static 'img/Logo.webp' %}">
+    <link rel="preconnect" href="{% static 'https://fonts.gstatic.com' %}" crossorigin>
+    <link href="{% static 'https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap'%}" rel="stylesheet">
+    <link href="{% static 'https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap'%}" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand lora deoro">
+                <img src="{% static 'img/Logo.webp' %}" width="75px" height="75px" class="rounded-4" alt="LogoCevicheria">
+                Cevicheria La Negra
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav sora">
+                    <li class="nav-item">
+                        <a class="nav-link deoro" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle deoro" hrefq="#" role="button" data-toggle="dropdown">Cuenta</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item deoro sora" href="login.html">Log in</a></li>
+                            <li><a class="dropdown-item deoro sora" href="registro.html">Register</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle deoro" hrefq="#" role="button" data-toggle="dropdown">Menu</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item deoro sora" href="menu.html">Todo</a></li>
+                            <li><a class="dropdown-item deoro sora" href="platos.html">Platos</a></li>
+                            <li><a class="dropdown-item deoro sora" href="ceviches.html">Ceviches</a></li>
+                            <li><a class="dropdown-item deoro sora" href="sandwiches.html">Sadwiches</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle deoro" hrefq="#" role="button" data-toggle="dropdown">La Cevicheria La Negra</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item deoro sora" href="nosotros.html">Nosotros</a></li>
+                        </ul>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <div class="container">
+        <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner rounded-3">
+                <div class="carousel-item active">
+                    <img src="{% static 'img/Ceviche de salmon con camarones.jpg'%}" class="d-block tamañoimagenes w-100" alt="SalmonConCamarones">
+                </div>
+                <div class="carousel-item">
+                    <img src="{% static 'img/Ceviche de reineta con camarones.jpg'%}" class="d-block tamañoimagenes w-100" alt="ReinetaConCamarones">
+                </div>
+                <div class="carousel-item">
+                    <img src="{% static 'img/Ceviche de camarones.jpg'%}" class="d-block tamañoimagenes w-100" alt="Camarones">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row m-4">
+            <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5 col-xll-5 border border-warning shadow rounded-3 mt-3">
+                <h1 class="lora deoro">Nuestra Mision</h1>
+                <p class="sora text-center deoro mt-3">Satisfacer el <b>hambre</b> y <b>crear</b> una <b>experiencia</b> culinaria auténtica y memorable para cada cliente que visite el lugar.</p>
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xll-2"></div>
+            <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5 col-xll-5 border border-warning shadow rounded-3 mt-3">
+                <h1 class="lora deoro">Nuestros Valores</h1>
+                <ul>
+                    <li class="deoro sora"><b>Autenticidad</b></li>
+                    <li class="deoro sora"><b>Pasion por el mar</b></li>
+                    <li class="deoro sora"><b>Hospitalidad y Calidez</b></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="row m-2">
+            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xll-1"></div>
+            <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xll-10 border border-warning shadow rounded-3 mt-3">
+                <h2 class="lora deoro text-center border-bottom border-3 border-warning">Seleccion Rapida</h2>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xll-6">
+                        <h3 class="deoro lora text-center">Terucazo Doble</h3>
+                        <p class="sora deoro text-center">Dos Filetes de pescado, tomate, cebolla morada, ciboulette.</p>
+                        <div class="row m-4">
+                            <img src="{% static 'img/TerucazoDoble8.jpg'%}" class="w-100 rounded-3" alt="CompraRapida1">
+                            <div class="text-end">
+                                <br>
+                                <button type="button" class="btn btn-secondary border-warning"><a href="" class="deoro" style="text-decoration: none;">$7000</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xll-6">
+                        <h3 class="deoro lora text-center">Carpacho de Salmon</h3>
+                        <p class="sora deoro text-center">Salmon, Pimienta, Aceite de Oliva, Sal Rosa, Jugo de Limon, Alcaparras y Ciboulette</p>
+                        <div class="row m-4">
+                            <img src="{% static 'img/CarpachoSalmon.jpg'%}" class="w-100 border-2 rounded-3" alt="CompraRapida1">
+                            <div class="text-end">
+                                <br>
+                                <button type="button" class="btn btn-secondary border-warning"><a href="" class="deoro" style="text-decoration: none;">$8000</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xll-1"></div>
+        </div>
+        <br>
+    </div>
+
+    <div class="container">
+        <div class="row m-2">
+            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xll-4">
+                <div class="card w-100 border-3">
+                    <img class="card-img-top" src="{ % static 'img/Ceviche de reineta con camarones.jpg' %}" alt="card_reicamarones">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title lora deoro text-center m-3">Ceviche de Reineta con Camarones</h3>
+                    <br>
+                    <p class="card-text sora deoro text-center">$2500</p>
+                    <br>
+                    <p class="card-text sora deoro text-center">Ceviche de Cebolla Reineta, Camarones, Limon.</p>
+                    <div class="text-end mb-3">
+                        <button class="btn btn-secondary border border-warning deoro" href="menu.html" >Mas informacion</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xll-4">
+                <div class="card w-100 border-3">
+                    <img class="card-img-top" src="{ % static 'img/Ceviche de salmon con camarones.jpg' %}" alt="card_Salmorones">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title lora deoro text-center m-3">Ceviche de Salmon con Camarones</h3>
+                    <br>
+                    <p class="card-text sora deoro text-center">$3000</p>
+                    <br>
+                    <p class="card-text sora deoro text-center">Ceviche de Cebolla Salmon, Camarones, Limon.</p>
+                    <div class="text-end mb-3">
+                        <button class="btn btn-secondary border border-warning deoro" href="menu.html" >Mas informacion</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xll-4">
+                <div class="card w-100 border-3">
+                    <img class="card-img-top" src="{% static 'img/Ceviche de salmon.jpg'%}" alt="card_salmon">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title lora deoro text-center m-3">Ceviche de Salmon</h3>
+                    <br>
+                    <p class="card-text sora deoro text-center">$3500</p>
+                    <br>
+                    <p class="card-text sora deoro text-center" >Ceviche de salmon, cebolla morada, limon.</p>
+                    <br>
+                    <div class="text-end mb-3">
+                        <button class="btn btn-secondary border border-warning deoro mt-2" href="menu.html" >Mas informacion</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="map">
+        
+    </div>
+    <div class="container-fluid text-end">
+        <div class="deoro" style="font-size: 30px;" id="reloj">
+    
+        </div>
+    </div>
+    <script type="module" src="my-mapp/main.js"></script>
+    <script src="js/dadordeora.js"></script>
+</body>
+<footer class="container-fluid">
+    <div class="row text-center">
+        <div class="col-sm-12 m-2">
+            <a href="https://www.instagram.com/cevicherialanegra08/"><img src="{% static 'img/InstaLogo.webp'%}" style="width: 60px;" alt=""></a>
+            <a href=""><img src="{% static 'img/icono_wsp.jpg'%}" style="width: 55px;" alt=""></a>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <h1 class="text-center"><a class="deorofooter lora" href="index.html" style="text-decoration: none; ">La Cevicheria La Negra ©</a></h1>
+    </div>
+    <br>
+    <div class="row text-center">
+        <ul class="sora deorofooter">
+            <li><a href="index.html" class="nondecorationslinks">Inicio</a></li>
+            <li><a href="login.html" class="nondecorationslinks">Log in</a></li>
+            <li><a href="registro.html" class="nondecorationslinks">Register</a></li>
+            <li><a href="menu.html" class="nondecorationslinks">Menu</a></li>
+            <li><a href="platos.html" class="nondecorationslinks">Platos</a></li>
+            <li><a href="ceviches.html" class="nondecorationslinks">Ceviches</a></li>
+            <li><a href="sandwiches.html" class="nondecorationslinks">Sandwiches</a></li>
+
+        </ul>
+    </div>
+    <br>
+</footer>
+</html>

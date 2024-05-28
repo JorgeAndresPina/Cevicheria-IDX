@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <title>Platos</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/fontsgoogle.css">
+    <link rel="stylesheet" href="css/estilomenu.css">
+    <link rel="icon" type="image/x-icon" href="img/Logo.webp">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    </head>
+<body onload="mostrarPlatos()">
+    <div class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand lora deoro">
+                <img src="img/Logo.webp" width="75px" height="75px" class="rounded-4" alt="LogoCevicheria">
+                Cevicheria La Negra
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav sora">
+                    <li class="nav-item">
+                        <a class="nav-link deoro" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle deoro" hrefq="#" role="button" data-toggle="dropdown">Cuenta</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item deoro sora" href="login.html">Log in</a></li>
+                            <li><a class="dropdown-item deoro sora" href="registro.html">Register</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle deoro" hrefq="#" role="button" data-toggle="dropdown">Menu</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item deoro sora" href="menu.html">Todo</a></li>
+                            <li><a class="dropdown-item deoro sora" href="platos.html">Platos</a></li>
+                            <li><a class="dropdown-item deoro sora" href="ceviches.html">Ceviches</a></li>
+                            <li><a class="dropdown-item deoro sora" href="sandwiches.html">Sadwiches</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle deoro" hrefq="#" role="button" data-toggle="dropdown">La Cevicheria La Negra</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item deoro sora" href="nosotros.html">Nosotros</a></li>
+                        </ul>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h1 class="lora deoro border-bottom border-warning rounded-3 w-50 text-center">Platos</h1>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <table class="table table-dark">
+                <thead class="lora">
+                    <tr>
+                        <th>Imagen Ceviche</th>
+                        <th>Nombre Ceviche</th>
+                        <th>Ingredientes</th>
+                        <th>Descripcion</th>
+                    </tr>
+                </thead>
+                <tbody id="platos">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid text-end">
+        <div class="deoro" style="font-size: 30px;" id="reloj">
+    
+        </div>
+    </div>
+    <script src="js/alimentos.js"></script>
+    <script src="js/dadordeora.js"></script>
+</body>
+<footer class="container-fluid">
+    <div class="row text-center">
+        <div class="col-sm-12 m-2">
+            <a href="https://www.instagram.com/cevicherialanegra08/"><img src="img/InstaLogo.webp" style="width: 60px;" alt=""></a>
+            <a href=""><img src="img/icono_wsp.jpg" style="width: 55px;" alt=""></a>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <h1 class="text-center"><a class="deorofooter lora" href="index.html" style="text-decoration: none; ">La Cevicheria La Negra ©</a></h1>
+    </div>
+    <br>
+    <div class="row text-center">
+        <ul class="sora deorofooter">
+            <li><a href="index.html" class="nondecorationslinks">Inicio</a></li>
+            <li><a href="login.html" class="nondecorationslinks">Log in</a></li>
+            <li><a href="registro.html" class="nondecorationslinks">Register</a></li>
+            <li><a href="menu.html" class="nondecorationslinks">Menu</a></li>
+            <li><a href="platos.html" class="nondecorationslinks">Platos</a></li>
+            <li><a href="ceviches.html" class="nondecorationslinks">Ceviches</a></li>
+            <li><a href="sandwiches.html" class="nondecorationslinks">Sandwiches</a></li>
+        </ul>
+    </div>
+    <br>
+</footer>
+</html>
